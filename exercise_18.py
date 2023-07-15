@@ -1,3 +1,8 @@
+# creating a function that will add 2 numbers
+def addition(arg1, arg2):
+    print(f"Sum: {arg1} + {arg2} = {arg1+arg2}")
+
+
 # this one is like your scripts with argv
 def print_two(*args):
     arg1, arg2 = args
@@ -16,9 +21,10 @@ def print_one(arg1):
 
 # this one takes no arguments
 def print_none():
-    print("I got nothin'.")
+    print("I got nothing.")
 
 
+addition(3, 7)
 print_two("Banele", "Mlamleli")
 print_two_again("Shaun", "Tania")
 print_one("First arg")
