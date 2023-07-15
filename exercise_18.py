@@ -30,7 +30,10 @@ def multiplication(arg1, arg2):
 
 
 addition(3, 7)
-multiplication(3, 2)
+print("Input values for multiplication")
+value1 = int(input("First value: "))
+value2 = int(input("Second value: "))
+multiplication(value1, value2)
 print_two("Banele", "Mlamleli")
 print_two_again("Shaun", "Tania")
 print_one("First arg")
