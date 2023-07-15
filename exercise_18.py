@@ -24,7 +24,13 @@ def print_none():
     print("I got nothing.")
 
 
+# creating a function that will multiply two number
+def multiplication(arg1, arg2):
+    print(f"Multiply: {arg1} x {arg2} = {arg1*arg2}")
+
+
 addition(3, 7)
+multiplication(3, 2)
 print_two("Banele", "Mlamleli")
 print_two_again("Shaun", "Tania")
 print_one("First arg")
