@@ -1,0 +1,8 @@
+# - Octothorpe(hashtag) is used for a comment
+return - this is used to return a value from a function
+f - is used for string formatting. You're telling Python that this string will be formatted in such a  way
+def - used to tell Python that you're defining(or creating) a function
+: - Colon used to end a function definition
+print - This function is used to display/print out an output
+input - This is also a function used to capture user input from the terminal
+from sys import argv - This code imports/adds a module(a separate piece of code) into the current codebase/project to expand its functionality
