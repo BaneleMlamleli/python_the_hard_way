@@ -37,3 +37,8 @@ Iterative version release. Versioning structurisation
 
 - In this release we completed the below
 - Creating addition functions, importing custom modules, Bytes, and Characters
+
+## Version 1.4 (Exercise 27 to 30)
+
+- In this release we completed the below
+- Truth Terms, Truth table, Boolean practice, If and Else statement
