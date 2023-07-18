@@ -1,3 +1,7 @@
+"""
+Quiz that consolidates all learned concepts. In this file I fixed the code and added code to complete the code
+"""
+
 from sys import argv
 
 script, filename = argv
