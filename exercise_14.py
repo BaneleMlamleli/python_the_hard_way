@@ -1,3 +1,7 @@
+"""
+Prompting for user input and passing parameter values into functions
+"""
+
 from sys import argv
 
 script, user_name = argv

@@ -1,3 +1,7 @@
+"""
+Reading a file to copy its information to paste it into a second file
+"""
+
 from sys import argv
 from os.path import exists
 

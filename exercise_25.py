@@ -1,3 +1,7 @@
+"""
+Importing exe25 file as a module to use its methods
+"""
+
 import ex25
 
 sentence = "All good things come to those who wait."
