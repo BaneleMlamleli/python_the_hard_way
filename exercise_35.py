@@ -1,3 +1,6 @@
+"""
+Fixing game error and bugs. Redesigning the logic if necessary
+"""
 from sys import exit
 
 
