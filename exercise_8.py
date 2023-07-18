@@ -1,3 +1,7 @@
+"""
+Printing with a use of format for displaying and formating text
+"""
+
 formatter = "{} {} {} {}"
 print(formatter.format(1, 2, 3, 4))
 print(formatter.format("one", "two", "three", "four"))

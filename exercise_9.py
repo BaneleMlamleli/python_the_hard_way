@@ -1,4 +1,6 @@
-# Here's some new strange stuff, remember type it exactly.
+"""
+Printing with newline and tabs introduction
+"""
 
 days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
