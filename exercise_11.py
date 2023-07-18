@@ -1,5 +1,5 @@
 """
-
+Getting user input using the input() function
 """
 
 print("How old are you?", end=" ")

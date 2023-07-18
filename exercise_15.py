@@ -1,3 +1,7 @@
+"""
+Reading a file
+"""
+
 from sys import argv
 
 script, filename = argv

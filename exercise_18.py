@@ -1,3 +1,9 @@
+"""
+This file contains methods that will be added in other python file as a module import.
+This file implements functions, variables, printing, parameters
+"""
+
+
 # creating a function that will add 2 numbers
 def addition(arg1, arg2):
     print(f"Sum: {arg1} + {arg2} = {arg1+arg2}")

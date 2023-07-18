@@ -1,3 +1,7 @@
+"""
+Implementing variables and functions
+"""
+
 print("Let's practice everything.")
 print("You'd need to know 'bout escapes with \\ that do:")
 print("\n newlines and \t tabs.")

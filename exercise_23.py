@@ -1,3 +1,9 @@
+"""
+String, Bytes, and Character encoding
+In this exercise I downloaded a text file that contains different encodings.
+This code reads the file and encodes it using the defined encoding (e.g., utf-8)
+"""
+
 import sys
 
 script, input_encoding, error = sys.argv

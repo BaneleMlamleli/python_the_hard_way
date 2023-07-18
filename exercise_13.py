@@ -1,3 +1,7 @@
+"""
+Using parameters and introduction to adding modules
+"""
+
 from sys import argv
 
 # read the WYSS section for how to run this
