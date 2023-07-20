@@ -1,11 +1,15 @@
 """
-Fixing game error and bugs. Redesigning the logic if necessary
+Fixed syntax error and some small bugs.
+I also added the CamelCase package with the CamelCase module for demonstrating package management through pipenv.
 """
 from sys import exit
+from camelcase import CamelCase
+
+c = CamelCase()
 
 
 def gold_room():
-    print("This room is full of gold. How much do you take?")
+    print(c.hump("This room is full of gold. How much do you take?"))
 
     choice = input("> ")
     if "0" in choice or "1" in choice:
@@ -13,16 +17,16 @@ def gold_room():
     else:
         dead("Man, learn to type a number.")
     if how_much < 50:
-        print("Nice, you're not greedy, you win!")
+        print(c.hump("Nice, you're not greedy, you win!"))
         exit(0)
     else:
         dead("You greedy bastard!")
 
 
 def bear_room():
-    print("There is a bear here.")
-    print("The bear has a bunch of honey.")
-    print("The fat bear is in front of another door.")
+    print(c.hump("There is a bear here."))
+    print(c.hump("The bear has a bunch of honey."))
+    print(c.hump("The fat bear is in front of another door."))
     bear_moved = False
     while True:
         print(
@@ -62,9 +66,9 @@ def dead(why):
 
 
 def start():
-    print("You are in a dark room.")
-    print("There is a door to your right(R) and left(L).")
-    print("Which one do you take?")
+    print(c.hump("you are in a dark room."))
+    print(c.hump("There is a door to your right(R) and left(L)."))
+    print(c.hump("Which one do you take?"))
     choice = input("> ")
     if choice[0].lower() == "l":
         bear_room()
