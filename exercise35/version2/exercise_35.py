@@ -1,6 +1,6 @@
 """
 Fixed syntax error and some small bugs.
-I also added the CamelCase package with the CamelCase module for demonstrating package management through pipenv
+I also added the CamelCase package with the CamelCase module for demonstrating package management through pipenv.
 """
 from sys import exit
 from camelcase import CamelCase
