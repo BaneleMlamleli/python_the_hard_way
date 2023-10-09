@@ -1,5 +1,6 @@
 """
-First hello world program
+Name: exercise_1
+Description: First hello world program
 """
 print("Hello World!")
 print("Hello Again")
